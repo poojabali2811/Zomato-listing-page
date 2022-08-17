@@ -1,0 +1,157 @@
+header{
+    height:80px;
+    background-color: brown;
+}
+
+
+
+
+#brand{
+    float:left;
+    color:white;
+    font-size: 60px;
+    
+}
+
+a{
+    text-decoration: none;
+}
+#social{
+    float:right;
+    margin:10px;
+    
+    
+}
+
+#mainContainer{
+    display: flex;
+    flex-direction: row;
+  
+}
+
+
+
+
+
+#filters{
+    border:2px solid grey;
+    height:100%;
+    width:20%;;
+    margin-top:10%;
+    margin-left:5%;
+
+}
+
+
+#cuisine>span{
+    white-space: nowrap;
+   
+ 
+}
+
+#cuisine,#cost{
+    margin-top:20%;
+}
+
+h4{
+        text-align: center
+}
+
+#mainContent{
+    
+    height:100%;
+    width:60%;
+    margin-left:10%;
+    
+}
+
+#searchBar{
+    border:2px solid grey;
+    width:80%;
+    margin-top:10%;
+    margin-left:10%;
+    height:25px;
+
+
+}
+
+.searchInput{
+    border-style: hidden;
+}
+
+.card{
+  
+    margin-top:10%;
+    margin-left:10%;
+    -webkit-box-shadow: 0 0 5px 2px #fff;
+    -moz-box-shadow: 0 0 5px 2px #fff;
+    box-shadow: 0 0 5px 2px rgb(202, 215, 228);
+    border-radius: 5px;
+    margin:20px;
+    height:240px;
+    display: flex;
+    
+   
+    align-items: center;
+    
+    
+}
+
+
+
+.card >img{
+    height:160px;
+    border-radius: 10px;
+    width:300px;
+    margin-left: 10px;
+  
+}
+
+.cardContent{
+   
+    padding-left:10px;
+   }
+
+.cardContentBtn{
+    display: flex;
+    gap:30px;
+    margin:10px 10px 20px 10px;
+}
+
+.blueBtn{
+    background-color: rgba(66, 66, 226, 0.756);
+    color: white;
+    border: white;
+    font-weight: bold;
+    
+}
+
+.greenBtn{
+    background-color:green;
+    color: white;
+    border: white;
+    font-weight: bold;
+
+
+}
+
+.redBtn{
+
+    background-color:rgb(192, 76, 76);
+    color: white;
+    border: white;
+    font-weight: bold;
+
+}
+
+
+.skyBluBtn{
+
+    background-color: rgb(18, 152, 205);
+    color: white;
+    border: white;
+    font-weight: bold;
+
+}
+
+
