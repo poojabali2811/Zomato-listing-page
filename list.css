@@ -111,7 +111,7 @@ h4{
 
 
 
-.card >img{
+.cardImg{
     height:160px;
     border-radius: 10px;
     width:300px;
@@ -165,5 +165,36 @@ h4{
     font-weight: bold;
 
 }
+
+
+@media screen and (max-width: 865px) {
+    .cardContentBtn{
+        flex-direction: column;
+    }
+    .cardImg{
+        width:200px;
+
+    }
+    .card{
+        height: 280px;
+    }
+
+   
+  }
+
+  @media screen and (max-width: 670px) {
+    .cardContentBtn{
+        flex-direction: column;
+    }
+    .cardImg{
+        width:100px;
+
+    }
+    .card{
+        height: 290px;
+    }
+
+   
+  }
 
 
